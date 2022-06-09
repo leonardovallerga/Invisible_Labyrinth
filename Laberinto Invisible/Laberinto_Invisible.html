@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="esp" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laberinto Invisible por Leo Matarazzo</title>
+    <link rel="stylesheet" href="./styles/style.css">
+  </head>
+  <body>
+
+    <div id=gameScreen>
+      <h1>Laberinto Invisible</h1>
+      <p id="author">por Leo Matarazzo</p>
+      <canvas id="canvas" width="930" height="510"></canvas>
+      <p id="bottom_text">
+        Nivel: <span id="level_text">1</span>
+      </p>
+      <p id="superposed_text" hidden>¡Ganaste!</p>
+    </div>
+
+    <script src="./scripts/data.js" charset="utf-8"></script>
+    <script src="./scripts/maps.js" charset="utf-8"></script>
+    <script src="./scripts/monsters.js" charset="utf-8"></script>
+    <script src="./scripts/player.js" charset="utf-8"></script>
+    <script src="./scripts/execution.js" charset="utf-8"></script>
+
+  </body>
+</html>
